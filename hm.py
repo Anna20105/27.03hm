@@ -11,10 +11,10 @@ class DogRex:
 
 my_dog = DogRex()   
 
-print('my dog name:', my_dog.name)   #Rex
-print('my dog voice:', my_dog.voice)  #bow-wow
-print('my dog is hungry:', my_dog.hungry)   #True
+print('my dog name:', my_dog.name)   
+print('my dog voice:', my_dog.voice)  
+print('my dog is hungry:', my_dog.hungry)  
 my_dog.feed()
-print('my dog is hungry:', my_dog.hungry)   #False
+print('my dog is hungry:', my_dog.hungry) 
 my_dog.walk()
-print('my dog is hungry:', my_dog.hungry)   #True  
+print('my dog is hungry:', my_dog.hungry)  
